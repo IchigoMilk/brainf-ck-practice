@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><title>BF Interpreter</title><script type='text/javascript' src='bf.js'></script>
+<link rel='stylesheet' type='text/css' src='bf.css'></link></head><body>
+
+
+
+<tr>
+<td>program:</td>
+<td><input id='program' onChange='setIns()'></td>
+</tr>
+<tr>
+
+
+            <span id='button'>
+                <input type='button' value='step' onClick='go(0)' />
+            </span>
+			<span id='button'>
+                <input type='button' value='auto' onClick='go(1)' />
+            </span><br /><br />
+
+			<tt>
+<td><span id='ins'></span></td>
+</tt>
+<br />
+			<td><span id='memory'></span></td>
+<br />
+
+<td><span id='result'></span></td>
+</tr>
+
+
+</body></html>
